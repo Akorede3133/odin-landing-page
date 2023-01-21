@@ -28,10 +28,12 @@ header .bottom-header {
     height: 200px;
     width: 400px;
     object-fit: cover;
+    border-radius: 5px;
 }
 .top-header p {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
 .top-header .links-container {
     list-style: none;
@@ -145,4 +147,13 @@ main .call-to-action {
     border: 1px solid #f9faf8;
     padding: 5px 15px;
     border-radius: 5px;
+}
+/**** footer ****/
+footer {
+    height: 70px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

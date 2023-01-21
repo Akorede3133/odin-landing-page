@@ -1,0 +1,1 @@
+This is a product landing page to practise my knowledge of basic `html` and `css` learnt so far from odin project.

@@ -38,7 +38,7 @@ header .bottom-header {
     display: flex;
     gap: 20px;
 }
-.links-container a, .bottom-header a {
+.links-container a, .bottom-header a, .call-to-action a {
     text-decoration: none;
     color: ;
 }
@@ -47,7 +47,7 @@ header .bottom-header {
     font-weight: 900;
     color: #F9FAF8;
 }
-.bottom-header .header-desc p, .links-container a, .bottom-header a {
+.bottom-header .header-desc p, .links-container a, .bottom-header a, .call-to-action a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -117,4 +117,32 @@ p span {
     align-self: flex-end;
     color: #1f2937;
     font-weight: 700;
+}
+/**** Call to action ****/
+
+main .call-to-action {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action .call-container {
+    width: 70%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.call-container .call-text  {
+    color: #F9FAF8;
+}
+.call-text span {
+    font-size: 12px;
+}
+.call-to-action a {
+    border: 1px solid #f9faf8;
+    padding: 5px 15px;
+    border-radius: 5px;
 }

@@ -60,7 +60,6 @@ header .bottom-header {
 }
 /**** main section****/
 main .information {
-    display: ;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -95,4 +94,27 @@ figure figcaption {
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
+}
+main .longtext {
+    height: 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.longtext p {
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+p span {
+    display: inline-block;
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 700;
 }
